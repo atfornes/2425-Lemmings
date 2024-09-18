@@ -51,7 +51,7 @@ En proyectos grandes lo mejor es plantearse hitos pequeños o mini-proyectos que
 
 2. Muestra un tablero vacío, para ello si es necesario cambia el valor devuelto por algún método para que se dibuje el **tablero vacío**.
 
-3. Ahora añade varios `Lemmings` tanto en casillas distintas, como en la misma y familizarizaté con cómo se representan.
+3. Ahora añade varios `Lemmings` tanto en casillas distintas, como en la misma y familiarizaté con cómo se representan.
 
 4. Crea las `Wall` y añádelas al mapa.
 
