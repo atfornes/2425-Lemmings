@@ -316,7 +316,7 @@ Por último, es conveniente que `GameWorld` tenga también dicho método para qu
 <!-- TOC --><a name="detalles-downCaver-metalWall"></a>
 ###  Detalles: DownCaverRole y MetalWall
 
-Este nuevo rol lo implementaremos en una clase llamada `DownCaverRole`. Como se ha comentado anteriormente, el rol excavador permitirá al lemming cavar en vertical el suelo blando. El icono que utilizaremos en este caso para representar un lemming excavador será: `Messages.LEMMING_DWON_CAVER`. Cada vez que un excavador excava un bloque de tierra caerá un nivel y, por lo tanto, no morirá. Sin embargo, si no pudiera cavar se desactivaría dicho rol para volver a ser un caminante en la misma dirección que llevaba anteriormente. 
+Este nuevo rol lo implementaremos en una clase llamada `DownCaverRole`. Como se ha comentado anteriormente, el rol excavador permitirá al lemming cavar en vertical el suelo blando. El icono que utilizaremos en este caso para representar un lemming excavador será: `Messages.LEMMING_DOWN_CAVER`. Cada vez que un excavador excava un bloque de tierra caerá un nivel y, por lo tanto, no morirá. Sin embargo, si no pudiera cavar se desactivaría dicho rol para volver a ser un caminante en la misma dirección que llevaba anteriormente. 
 
 El mensaje de ayuda que mostrará dicho rol es el siguiente: `[D]own[C]aver: Lemming caves downwards`. Obviamente, el nombre corto será `DC` y su nombre largo `DownCaver`.
 
